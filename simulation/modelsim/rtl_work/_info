@@ -1,0 +1,725 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/23011659/Documents/proj_final/simulation/modelsim
+Edata_mem
+Z1 w1764083751
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+R0
+Z5 8C:/Users/23011659/Documents/proj_final/data_mem.vhd
+Z6 FC:/Users/23011659/Documents/proj_final/data_mem.vhd
+l0
+L10 1
+V6M6F1HQdYL]N>OVL4?:3T2
+!s100 b5_W[dLNfGl[jXf]M;_Cd3
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1764093533
+!i10b 1
+Z9 !s108 1764093533.000000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/data_mem.vhd|
+Z11 !s107 C:/Users/23011659/Documents/proj_final/data_mem.vhd|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1 CvgOpt 0
+Alogic
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 6M6F1HQdYL]N>OVL4?:3T2
+!i122 14
+l40
+L21 35
+V1_<JWi80cNJIK9N7Q?fnf0
+!s100 nA@]M@5AaGb_`T_PAU:[a0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pdata_mem_package
+R2
+R3
+R4
+!i122 15
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/data_mem_package.vhd
+FC:/Users/23011659/Documents/proj_final/data_mem_package.vhd
+l0
+Z14 L24 1
+VjTVf3b7JzZo0llzmVnL5C3
+!s100 3fo6C>fnmKCLojUgMRInS0
+R7
+33
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/data_mem_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/data_mem_package.vhd|
+!i113 1
+R12
+R13
+Efull_adder
+R1
+R3
+R4
+!i122 4
+R0
+Z15 8C:/Users/23011659/Documents/proj_final/full_adder.vhd
+Z16 FC:/Users/23011659/Documents/proj_final/full_adder.vhd
+l0
+L6 1
+VbE6W:8Tc9ni5HUa=m<nD=3
+!s100 ?8J<hbI3JQ9WgkZ]NWmZm3
+R7
+33
+Z17 !s110 1764093530
+!i10b 1
+Z18 !s108 1764093530.000000
+Z19 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/full_adder.vhd|
+Z20 !s107 C:/Users/23011659/Documents/proj_final/full_adder.vhd|
+!i113 1
+R12
+R13
+Alogic
+R3
+R4
+DEx4 work 10 full_adder 0 22 bE6W:8Tc9ni5HUa=m<nD=3
+!i122 4
+l12
+L11 5
+VQL49P?J>44K8XZ39XX:HZ2
+!s100 A45@A`OJk_K]zFYcQ@6Fh3
+R7
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Pfull_adder_package
+R3
+R4
+!i122 5
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/full_adder_package.vhd
+FC:/Users/23011659/Documents/proj_final/full_adder_package.vhd
+l0
+Z21 L23 1
+VfYAn4SD59O5IRghdi`P=b0
+!s100 iIENn7?DBmkTm9=NQ;L[=1
+R7
+33
+Z22 !s110 1764093531
+!i10b 1
+Z23 !s108 1764093531.000000
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/full_adder_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/full_adder_package.vhd|
+!i113 1
+R12
+R13
+Emem_inst
+Z24 w1764093077
+R2
+R3
+R4
+!i122 0
+R0
+Z25 8C:/Users/23011659/Documents/proj_final/mem_inst.vhd
+Z26 FC:/Users/23011659/Documents/proj_final/mem_inst.vhd
+l0
+L8 1
+V=BMEPKhJ8Zj?50g0?X;Qd0
+!s100 X81j7b?ePP09cR?g48QS53
+R7
+33
+Z27 !s110 1764093529
+!i10b 1
+Z28 !s108 1764093529.000000
+Z29 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/mem_inst.vhd|
+Z30 !s107 C:/Users/23011659/Documents/proj_final/mem_inst.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 8 mem_inst 0 22 =BMEPKhJ8Zj?50g0?X;Qd0
+!i122 0
+l37
+L15 26
+V;:lVCW1];DenGo^iZnXjQ3
+!s100 i6J]OSo3iR`cJaZFff^iD2
+R7
+33
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Pmem_inst_package
+R2
+R3
+R4
+!i122 1
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/mem_inst_package.vhd
+FC:/Users/23011659/Documents/proj_final/mem_inst_package.vhd
+l0
+R14
+V7I3XlY4ZSB<DRCi>S0dH22
+!s100 nb6bbGQjzM2_diHbSKC8E0
+R7
+33
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/mem_inst_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/mem_inst_package.vhd|
+!i113 1
+R12
+R13
+Emux2_1
+R1
+R3
+R4
+!i122 12
+R0
+Z31 8C:/Users/23011659/Documents/proj_final/mux2_1.vhd
+Z32 FC:/Users/23011659/Documents/proj_final/mux2_1.vhd
+l0
+L7 1
+VW[o1<9FV0R6zZLoF0el`m3
+!s100 1K986P_eajWdL^T2d>zi33
+R7
+33
+R8
+!i10b 1
+Z33 !s108 1764093532.000000
+Z34 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/mux2_1.vhd|
+Z35 !s107 C:/Users/23011659/Documents/proj_final/mux2_1.vhd|
+!i113 1
+R12
+R13
+Alogic
+R3
+R4
+DEx4 work 6 mux2_1 0 22 W[o1<9FV0R6zZLoF0el`m3
+!i122 12
+l17
+L16 4
+V]inh^U<:ZQe:na?E84Jf>1
+!s100 ZFL^mj2D`eXlKlHWB9QVJ2
+R7
+33
+R8
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R12
+R13
+Pmux2_1_package
+R3
+R4
+!i122 13
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/mux2_1_package.vhd
+FC:/Users/23011659/Documents/proj_final/mux2_1_package.vhd
+l0
+R21
+V9_JPWU3X3f`LH`Bf1gcW;0
+!s100 HA6^AZ??8OcZ?CcU;GL`<1
+R7
+33
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/mux2_1_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/mux2_1_package.vhd|
+!i113 1
+R12
+R13
+Epc
+R1
+R2
+R3
+R4
+!i122 2
+R0
+Z36 8C:/Users/23011659/Documents/proj_final/pc.vhd
+Z37 FC:/Users/23011659/Documents/proj_final/pc.vhd
+l0
+L8 1
+V?BF?a5n2=G;]a7JnUoIom0
+!s100 TKjeg9M]_51AiL]OnK2o23
+R7
+33
+R17
+!i10b 1
+R18
+Z38 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/pc.vhd|
+Z39 !s107 C:/Users/23011659/Documents/proj_final/pc.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 ?BF?a5n2=G;]a7JnUoIom0
+!i122 2
+l20
+L17 19
+V]HPPn:9PQL@eGi6Q<RiLi1
+!s100 D^IG=WC4DAZW1L0fl:;Wd3
+R7
+33
+R17
+!i10b 1
+R18
+R38
+R39
+!i113 1
+R12
+R13
+Ppc_package
+R2
+R3
+R4
+!i122 3
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/pc_package.vhd
+FC:/Users/23011659/Documents/proj_final/pc_package.vhd
+l0
+R14
+VMd1TJa^jaQcoG>;i5jGia3
+!s100 O1S=2CTPY:n7jZJ?X4I7K0
+R7
+33
+R17
+!i10b 1
+R18
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/pc_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/pc_package.vhd|
+!i113 1
+R12
+R13
+Epipe_reg
+R1
+R2
+R3
+R4
+!i122 6
+R0
+Z40 8C:/Users/23011659/Documents/proj_final/pipe_reg.vhd
+Z41 FC:/Users/23011659/Documents/proj_final/pipe_reg.vhd
+l0
+L8 1
+VS3Qoj_LJ6QDZEK5Bm;c=P2
+!s100 CDdeg3UV26^O@blGP?BJ92
+R7
+33
+R22
+!i10b 1
+R23
+Z42 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/pipe_reg.vhd|
+Z43 !s107 C:/Users/23011659/Documents/proj_final/pipe_reg.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 8 pipe_reg 0 22 S3Qoj_LJ6QDZEK5Bm;c=P2
+!i122 6
+l26
+L22 24
+VD_eTLAa7<>WZ^WP?bb;8G0
+!s100 <RG8@DWGHEGoS42e@AIDk3
+R7
+33
+R22
+!i10b 1
+R23
+R42
+R43
+!i113 1
+R12
+R13
+Ppipe_reg_package
+R2
+R3
+R4
+!i122 7
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd
+FC:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd
+l0
+R14
+VRTd[B[R]B>ihHR3CUD3D`1
+!s100 DZgz1`AOXE?m<mEf1fncB2
+R7
+33
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd|
+!i113 1
+R12
+R13
+Epipeline
+Z44 w1764093448
+Z45 DPx4 work 16 data_mem_package 0 22 jTVf3b7JzZo0llzmVnL5C3
+Z46 DPx4 work 13 ula16_package 0 22 A7MNAF]H75b60]=3VXGo^2
+Z47 DPx4 work 14 mux2_1_package 0 22 9_JPWU3X3f`LH`Bf1gcW;0
+Z48 DPx4 work 10 uc_package 0 22 fB:amY;Z5ELA_:aDH5gD12
+Z49 DPx4 work 16 reg_file_package 0 22 :6H4zhL;E?I9R4J^AMQSb1
+Z50 DPx4 work 16 pipe_reg_package 0 22 RTd[B[R]B>ihHR3CUD3D`1
+Z51 DPx4 work 18 full_adder_package 0 22 fYAn4SD59O5IRghdi`P=b0
+Z52 DPx4 work 15 ula_sim_package 0 22 LNDmGeLGH`B]4KdQ?PR:O3
+Z53 DPx4 work 16 mem_inst_package 0 22 7I3XlY4ZSB<DRCi>S0dH22
+Z54 DPx4 work 10 pc_package 0 22 Md1TJa^jaQcoG>;i5jGia3
+R2
+R3
+R4
+!i122 20
+R0
+Z55 8C:/Users/23011659/Documents/proj_final/pipeline.vhd
+Z56 FC:/Users/23011659/Documents/proj_final/pipeline.vhd
+l0
+L14 1
+V0Mi:ZIONgUL]kGFiiS0Pc2
+!s100 Rc?:azU5SWdTQDEDXFhD]2
+R7
+33
+Z57 !s110 1764093535
+!i10b 1
+Z58 !s108 1764093534.000000
+Z59 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/pipeline.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/pipeline.vhd|
+!i113 1
+R12
+R13
+Alogic
+R45
+R46
+R47
+R48
+R49
+R50
+R51
+R52
+R53
+R54
+R2
+R3
+R4
+DEx4 work 8 pipeline 0 22 0Mi:ZIONgUL]kGFiiS0Pc2
+!i122 20
+l106
+L21 194
+V;PUBQWfUz8PBbS<1=J3CV2
+!s100 <YV?0<@]`5QWUhg<Qd]H=2
+R7
+33
+R57
+!i10b 1
+R58
+R59
+Z60 !s107 C:/Users/23011659/Documents/proj_final/pipeline.vhd|
+!i113 1
+R12
+R13
+Ereg_file
+Z61 w1764093479
+R2
+R3
+R4
+!i122 8
+R0
+Z62 8C:/Users/23011659/Documents/proj_final/reg_file.vhd
+Z63 FC:/Users/23011659/Documents/proj_final/reg_file.vhd
+l0
+L5 1
+V07O^Z;0:lMho`PlPi3[Sj2
+!s100 i7klfke@V3aBVgWCFXTJC0
+R7
+33
+Z64 !s110 1764093532
+!i10b 1
+R23
+Z65 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/reg_file.vhd|
+Z66 !s107 C:/Users/23011659/Documents/proj_final/reg_file.vhd|
+!i113 1
+R12
+R13
+Alogic
+R2
+R3
+R4
+DEx4 work 8 reg_file 0 22 07O^Z;0:lMho`PlPi3[Sj2
+!i122 8
+l23
+L18 22
+V96H7M6_oR`ObZi`g7UE2A2
+!s100 z]1dPBInCKO6PL^Hc3hKh0
+R7
+33
+R64
+!i10b 1
+R23
+R65
+R66
+!i113 1
+R12
+R13
+Preg_file_package
+R2
+R3
+R4
+!i122 9
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/reg_file_package.vhd
+FC:/Users/23011659/Documents/proj_final/reg_file_package.vhd
+l0
+R14
+V:6H4zhL;E?I9R4J^AMQSb1
+!s100 bYomVzc<OT15z?0kPNBFE2
+R7
+33
+R64
+!i10b 1
+R33
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/reg_file_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/reg_file_package.vhd|
+!i113 1
+R12
+R13
+Euc
+R1
+R3
+R4
+!i122 10
+R0
+Z67 8C:/Users/23011659/Documents/proj_final/UC.vhd
+Z68 FC:/Users/23011659/Documents/proj_final/UC.vhd
+l0
+L4 1
+Vn^h@MXz5]@m>]MeN>43zQ0
+!s100 1AhcK1d;_Qm6d:A=LXVB93
+R7
+33
+R64
+!i10b 1
+R33
+Z69 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/UC.vhd|
+Z70 !s107 C:/Users/23011659/Documents/proj_final/UC.vhd|
+!i113 1
+R12
+R13
+Alogic
+R3
+R4
+DEx4 work 2 uc 0 22 n^h@MXz5]@m>]MeN>43zQ0
+!i122 10
+l20
+L19 54
+VITL6=DQjVg];S:8==55_51
+!s100 ngd;4LAj9AO_PV9kJFfTF0
+R7
+33
+R64
+!i10b 1
+R33
+R69
+R70
+!i113 1
+R12
+R13
+Puc_package
+R3
+R4
+!i122 11
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/UC_package.vhd
+FC:/Users/23011659/Documents/proj_final/UC_package.vhd
+l0
+L22 1
+VfB:amY;Z5ELA_:aDH5gD12
+!s100 b[?zhYnJod1]:70XSaW232
+R7
+33
+R64
+!i10b 1
+R33
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/UC_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/UC_package.vhd|
+!i113 1
+R12
+R13
+Eula16
+R1
+R51
+R3
+R4
+!i122 18
+R0
+Z71 8C:/Users/23011659/Documents/proj_final/ULA16.vhd
+Z72 FC:/Users/23011659/Documents/proj_final/ULA16.vhd
+l0
+L8 1
+V?P`QTdgP7NDfaR`j;hV232
+!s100 W`^RPG276@1W[D3Y;L<Rd3
+R7
+33
+Z73 !s110 1764093534
+!i10b 1
+R58
+Z74 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/ULA16.vhd|
+Z75 !s107 C:/Users/23011659/Documents/proj_final/ULA16.vhd|
+!i113 1
+R12
+R13
+Alogic
+R51
+R3
+R4
+DEx4 work 5 ula16 0 22 ?P`QTdgP7NDfaR`j;hV232
+!i122 18
+l22
+L18 21
+VJ0EHF6Cgl=Z0[MX]]YaiG2
+!s100 PJ8V6^MPKF<V_nVQM5k`j1
+R7
+33
+R73
+!i10b 1
+R58
+R74
+R75
+!i113 1
+R12
+R13
+Pula16_package
+R51
+R3
+R4
+!i122 19
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/ULA16_package.vhd
+FC:/Users/23011659/Documents/proj_final/ULA16_package.vhd
+l0
+R14
+VA7MNAF]H75b60]=3VXGo^2
+!s100 I>HOJX_c7;E;]ZRZe^zMX0
+R7
+33
+R73
+!i10b 1
+R58
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/ULA16_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/ULA16_package.vhd|
+!i113 1
+R12
+R13
+Eula_sim
+R1
+R51
+R3
+R4
+!i122 16
+R0
+Z76 8C:/Users/23011659/Documents/proj_final/ULA_sim.vhd
+Z77 FC:/Users/23011659/Documents/proj_final/ULA_sim.vhd
+l0
+L7 1
+V_5LUD]74J3:0Dm4EaTZkR2
+!s100 ZhlBB0PH_5;3c_9SB`K8i3
+R7
+33
+R73
+!i10b 1
+R9
+Z78 !s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/ULA_sim.vhd|
+Z79 !s107 C:/Users/23011659/Documents/proj_final/ULA_sim.vhd|
+!i113 1
+R12
+R13
+Alogic
+R51
+R3
+R4
+DEx4 work 7 ula_sim 0 22 _5LUD]74J3:0Dm4EaTZkR2
+!i122 16
+l20
+L16 12
+V39NgBEbGHYYikWjTGfXX>0
+!s100 gb=I?X4S70_F9QS6O5kG@3
+R7
+33
+R73
+!i10b 1
+R9
+R78
+R79
+!i113 1
+R12
+R13
+Pula_sim_package
+R51
+R3
+R4
+!i122 17
+R1
+R0
+8C:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd
+FC:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd
+l0
+R14
+VLNDmGeLGH`B]4KdQ?PR:O3
+!s100 iQzhTFGGQkHZh>>6GL`Z50
+R7
+33
+R73
+!i10b 1
+R58
+!s90 -reportprogress|300|-2008|-work|work|C:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd|
+!s107 C:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd|
+!i113 1
+R12
+R13

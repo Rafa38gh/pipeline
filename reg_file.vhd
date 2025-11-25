@@ -18,7 +18,7 @@ END ENTITY;
 ARCHITECTURE LOGIC OF reg_file IS
 	
 	TYPE reg_array IS ARRAY(0 TO 15) OF STD_LOGIC_VECTOR(15 DOWNTO 0);		-- 16 registradores de 16 bits cada
-	SIGNAL reg	:	reg_array := ( 1 => "0000000000000001", 2 => "0000000000000101", OTHERS => (OTHERS => '0'));						-- Inicia todos os registradores como 0
+	SIGNAL reg	:	reg_array := ( 1 => "0000000000000000", 2 => "0000000000000111", OTHERS => (OTHERS => '0'));						-- Inicia todos os registradores como 0
 	
 	BEGIN
 	

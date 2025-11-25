@@ -1,0 +1,303 @@
+# Reading pref.tcl
+# do pipeline_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/mem_inst.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:49 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/mem_inst.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem_inst
+# -- Compiling architecture LOGIC of mem_inst
+# End time: 14:58:49 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/mem_inst_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:50 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/mem_inst_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package mem_inst_package
+# End time: 14:58:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:50 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture LOGIC of pc
+# End time: 14:58:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/pc_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:50 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/pc_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pc_package
+# End time: 14:58:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:50 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture LOGIC of full_adder
+# End time: 14:58:50 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/full_adder_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:51 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/full_adder_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package full_adder_package
+# End time: 14:58:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/pipe_reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:51 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/pipe_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipe_reg
+# -- Compiling architecture LOGIC of pipe_reg
+# End time: 14:58:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:51 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/pipe_reg_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pipe_reg_package
+# End time: 14:58:51 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/reg_file.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:51 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/reg_file.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_file
+# -- Compiling architecture LOGIC of reg_file
+# End time: 14:58:52 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/reg_file_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:52 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/reg_file_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package reg_file_package
+# End time: 14:58:52 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/UC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:52 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/UC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity UC
+# -- Compiling architecture LOGIC of UC
+# End time: 14:58:52 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/UC_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:52 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/UC_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package UC_package
+# End time: 14:58:52 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/mux2_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:52 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2_1
+# -- Compiling architecture logic of mux2_1
+# End time: 14:58:53 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/mux2_1_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:53 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/mux2_1_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package mux2_1_package
+# End time: 14:58:53 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/data_mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:53 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/data_mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_mem
+# -- Compiling architecture LOGIC of data_mem
+# End time: 14:58:53 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/data_mem_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:53 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/data_mem_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package data_mem_package
+# End time: 14:58:53 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/ULA_sim.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:53 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/ULA_sim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package full_adder_package
+# -- Compiling entity ULA_sim
+# -- Compiling architecture logic of ULA_sim
+# End time: 14:58:54 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:54 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/ULA_sim_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package full_adder_package
+# -- Compiling package ULA_sim_package
+# End time: 14:58:54 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/ULA16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:54 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/ULA16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package full_adder_package
+# -- Compiling entity ULA16
+# -- Compiling architecture LOGIC of ULA16
+# End time: 14:58:54 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/ULA16_package.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:54 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/ULA16_package.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package full_adder_package
+# -- Compiling package ULA16_package
+# End time: 14:58:54 on Nov 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Users/23011659/Documents/proj_final/pipeline.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:54 on Nov 25,2025
+# vcom -reportprogress 300 -2008 -work work C:/Users/23011659/Documents/proj_final/pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pc_package
+# -- Loading package mem_inst_package
+# -- Loading package full_adder_package
+# -- Loading package ULA_sim_package
+# -- Loading package pipe_reg_package
+# -- Loading package reg_file_package
+# -- Loading package UC_package
+# -- Loading package mux2_1_package
+# -- Loading package ULA16_package
+# -- Loading package data_mem_package
+# -- Compiling entity pipeline
+# -- Compiling architecture LOGIC of pipeline
+# ** Warning: C:/Users/23011659/Documents/proj_final/pipeline.vhd(155): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# End time: 14:58:55 on Nov 25,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# 
+vsim work.pipeline
+# vsim work.pipeline 
+# Start time: 14:58:58 on Nov 25,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pc_package
+# Loading work.mem_inst_package
+# Loading work.full_adder_package
+# Loading work.ula_sim_package
+# Loading work.pipe_reg_package
+# Loading work.reg_file_package
+# Loading work.uc_package
+# Loading work.mux2_1_package
+# Loading work.ula16_package
+# Loading work.data_mem_package
+# Loading work.pipeline(logic)
+# Loading work.ula_sim(logic)
+# Loading work.full_adder(logic)
+# Loading work.pc(logic)
+# Loading work.mem_inst(logic)
+# Loading work.pipe_reg(logic)
+# Loading work.reg_file(logic)
+# Loading work.uc(logic)
+# Loading work.mux2_1(logic)
+# Loading work.ula16(logic)
+# Loading work.data_mem(logic)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/pipeline/CLK
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 1000ps sim:/pipeline/RESET
+add wave -position end  sim:/pipeline/MUXWB_OUT
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline/REG_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline/REG_MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline/MEM_INSTRUCAO
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# End time: 15:00:19 on Nov 25,2025, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0

@@ -16,7 +16,7 @@ ARCHITECTURE LOGIC OF mem_inst IS
 	TYPE rom_type IS ARRAY (0 TO 15) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
 	
    SIGNAL rom : rom_type := (			-- Instruções pré-carregadas na memória
-        0  => "0110001001000110",  
+        0  => "0010001001000000",  
         1  => "0000000000000000",  
         2  => "0000000000000000",
         3  => "0000000000000000",

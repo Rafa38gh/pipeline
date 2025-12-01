@@ -20,7 +20,7 @@ END ENTITY;
 
 ARCHITECTURE LOGIC OF data_mem IS
 
-	TYPE mem_type IS ARRAY (0 TO 15) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
+	TYPE mem_type IS ARRAY (0 TO 65535) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
 	
 	SIGNAL MEM	:	mem_type := (		-- Valores pré-carregados
 		0  => x"000A",

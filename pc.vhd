@@ -9,6 +9,7 @@ ENTITY pc IS
 	PORT(
 			CLK		:	IN STD_LOGIC;
 			RESET		:	IN STD_LOGIC;
+			ENABLE	:	IN STD_LOGIC;
 			PC_IN		:	IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 			PC_OUT	:	OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
 	);
@@ -27,7 +28,10 @@ ARCHITECTURE LOGIC OF pc IS
 				PC_REG <= "0000";
 				
 			ELSIF rising_edge(CLK) THEN
-				PC_REG <= PC_IN;
+				IF ENABLE = '1' THEN
+					PC_REG <= PC_IN;
+				
+				END IF;
 			
 			END IF;
 		END PROCESS;

@@ -1,0 +1,12 @@
+-- CPU FINAL NA PLACA --
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE work.pipeline_package.all;
+
+ENTITY CPU IS
+	PORT(
+			SW				:	IN STD_LOGIC_VECTOR(17 DOWNTO 0);
+			Clock_50		:	IN STD_LOGIC;
+			
+	);

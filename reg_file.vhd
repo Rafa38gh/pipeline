@@ -10,6 +10,10 @@ ENTITY reg_file IS
 			WR_ADDR	:	IN STD_LOGIC_VECTOR(3 DOWNTO 0);
 			WR_DATA	:	IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 			REG_WR	:	IN STD_LOGIC;
+			
+			R1_OUT	:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			R2_OUT	:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+			
 			RS_OUT	:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 			RT_OUT	:	OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 	);
@@ -21,7 +25,9 @@ ARCHITECTURE LOGIC OF reg_file IS
 	SIGNAL reg	:	reg_array := ( 1 => "0000000000000000", 2 => "0000000000000111", OTHERS => (OTHERS => '0'));						-- Inicia todos os registradores como 0
 	
 	BEGIN
-	
+		R1_OUT <= reg(1);
+		R2_OUT <= reg(2);
+		
 		RS_OUT <= reg(to_integer(unsigned(RS_IN)));
 		RT_OUT <= reg(to_integer(unsigned(RT_IN)));
 		
